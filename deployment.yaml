@@ -15,7 +15,7 @@ spec:
         app: nodejs-app
     spec:
       containers:
-      - name: nodejs-container
-        image: <your-docker-image>  # Replace with your image, e.g. abhishekdhaiskar/nodejs-app:latest
+      - name: nodejs-app
+        image: abhi9604/my-node-app:latest  # Replace with your image, e.g. abhishekdhaiskar/nodejs-app:latest
         ports:
         - containerPort: 3000
